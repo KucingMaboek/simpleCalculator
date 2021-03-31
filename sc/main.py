@@ -1,7 +1,7 @@
 import wx
-import sc.Controllers.MainController
+import Controllers.MainController as mc
 
 app = wx.App()
-mainCtrl = sc.Controllers.MainController.MainController(None)
+mainCtrl = mc.MainController(None)
 mainCtrl.Show()
 app.MainLoop()

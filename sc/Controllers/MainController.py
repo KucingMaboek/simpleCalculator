@@ -1,5 +1,5 @@
 import wx
-from sc.Views.MainView import MainFrame
+from Views.MainView import MainFrame
 
 class MainController(MainFrame):
     isCalculated = False
